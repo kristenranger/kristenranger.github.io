@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Manuale|Roboto');
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	color:#B2B4B7;
+	font-size: 1em;
+	padding: 20px;
+	width: 100%;
+	font-family: 'Manuale', serif;
+}
+
+
+body {
+	color:#B2B4B7;
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFF;
+	font-size: 16px; /*1em=16px*/
+	padding: 30px;
+}
+
+img{
+	width: 70%;
+}
+
+hr{
+	border: none;
+	height: 1px;
+	background-color: #777779;
+	margin: 5px auto;
+}
+
+h2, h4, h5, p {
+	font-family: 'Manuale', serif;
+}
+
+h1 {
+	color: #7999AD;
+	font-size: 3em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3 {
+	color:#214766;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+h4{
+	font-size: 18px;
+	color: #7999AD;
+}
+
+h5{
+	font-size: 18px;
+	text-align: center;
+}
+
+p{
+	font-family: 'Roboto Thin', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+a{
+	color: #7999AD;
+	border-bottom: 1px, solid, ##7999AD;
+	text-decoration: none;
+}
+
+nav a{
+	color:#777779;
+	margin-right: 20px
+}
+
+.navlinks{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+#lander{
+	background-image:url(../images/sheets-header.jpg);
+	background-size: cover;
+	background-position: center;
+	padding:20px 0;
+	text-align: center;
+	height: 350px;
+}
+
+#hero {
+	width: 100%;
+}
+
+.product{
+	width: 50%;
+}
+
+#value {
+	width: 20%;
+}
+
+#logo{
+	width: 15%;
+}
+
+footer {
+	background-color:#E2E3E4;
+	color: #777779;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}

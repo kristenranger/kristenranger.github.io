@@ -5,20 +5,49 @@
 
 header {
 	color:#B2B4B7;
-	background-color: #FFF;
 	font-family: Helvetica, sans-serif;
 	padding: 20;
+	width: 100%;
 }
 
 
 body {
 	color:#B2B4B7;
 	background-color: #FFF;
-	font-family: Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.3;
+	padding: 10px;
+}
+
+main {
+	padding: 20px;
+}
+
+ul, ol {
+	padding-left: 20px;
+}
+
+h2, h3, h4, h5, p {
+	margin-bottom: 20px;
+}
+
+section {
+	padding: 20px;
 }
 
 h1 {
 	color: #7999AD;
+}
+
+a {
+	color: #7999AD;
+	text-decoration: none;
+}
+
+nav a {
+	color:#777779;
+	margin-right: 10px
 }
 
 h3 {
@@ -26,11 +55,26 @@ h3 {
 	text-transform: uppercase;
 }
 
-#slogan {
+#lander{
+	background:url(..images/sheets-header.jpg)
+	padding:20px 0;
+}
 
-	font-style: italic;
+#hero {
+	width: 100%;
+}
+
+#product {
+	width: 50%;
 }
 
 #value {
 	text-align: center;
+}
+
+footer {
+	background-color:#E2E3E4;
+	color: #777779;
+	text-align: center;
+	padding: 20px;
 }
