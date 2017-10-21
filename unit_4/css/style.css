@@ -1,28 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Manuale|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
 * {
 	padding: 0;
 	margin: 0;
 }
 
 header {
+	font-family: 'Playfair Display', serif;
 	color:#B2B4B7;
-	font-size: 1em;
 	padding: 20px;
 	width: 100%;
-	font-family: 'Manuale', serif;
 }
-
 
 body {
 	color:#B2B4B7;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color: #FFF;
 	font-size: 16px; /*1em=16px*/
-	padding: 30px;
+	padding: 50px;
+}
+
+main{
+	padding: 50px
 }
 
 img{
-	width: 70%;
+	width: 100%;
+	padding-bottom: 5px;
 }
 
 hr{
@@ -33,21 +36,24 @@ hr{
 }
 
 h2, h4, h5, p {
-	font-family: 'Manuale', serif;
+	font-family: 'Playfair Display', serif;
 }
 
 h1 {
-	color: #7999AD;
-	font-size: 3em;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 20px
+	text-align: center;
+	color: #214766;
 }
 
 h2{
-	font-size: 1.5em;
+	font-size: 20px;
 }
 
 h3 {
 	color:#214766;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -57,12 +63,12 @@ h4{
 }
 
 h5{
-	font-size: 18px;
+	font-size: 22px;
 	text-align: center;
 }
 
 p{
-	font-family: 'Roboto Thin', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
 }
@@ -78,35 +84,108 @@ nav a{
 	margin-right: 20px
 }
 
-.navlinks{
-	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-}
-
 #lander{
 	background-image:url(../images/sheets-header.jpg);
 	background-size: cover;
 	background-position: center;
 	padding:20px 0;
 	text-align: center;
-	height: 350px;
+	height: 400px;
+}
+
+#statement{
+	background-image:url(../images/Brand-Statement-Hero.jpg);
+	background-size: cover;
+	background-position: left;
+	color: #777779;
+	font-weight: normal;
+	padding:20px 0;
+	text-align: center;
+	height: 400px;
+}
+
+#brand-message{
+	background-image:url(../images/Video-Still.jpg);
+	background-size: cover;
+	background-position: center;
+	padding:20px;
+	text-align: center;
+	height: 250px;
 }
 
 #hero {
 	width: 100%;
 }
 
-.product{
+#product{
 	width: 50%;
+	text-align: center;
+	margin: 2em auto;
+}
+
+#best{
+	width: 40%;
+	text-align: center;
+	margin: 2em auto;
 }
 
 #value {
-	width: 20%;
+	width: 30em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 2em auto;
+}
+
+#details{
+	width: 30em;
+	margin: 2em auto;
 }
 
 #logo{
 	width: 15%;
+}
+
+.quote{
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: normal;
+	text-align: center;
+	color: #777779;
+	background-color: #E2E3E4;
+	padding-top: 50px;
+}
+
+.customer{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #777779;
+	background-color: #E2E3E4;
+	padding-bottom: 50px;
+}
+
+.navlinks{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.details-header{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.details-copy{
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-weight: normal;
+	text-align: center;
 }
 
 footer {
