@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	font-family: 'Playfair Display', serif;
+	color:#B2B4B7;
+	background-color: #FFED74;
+	width: 100%;
+	padding: 1em;
+	border: 1px black solid;
+}
+
+body {
+	color:#B2B4B7;
+	font-family: 'Raleway', sans-serif;
+	background-color: #fff;
+	font-size: 16px; /*1em=16px*/
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+h2, h4, h5, p {
+	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: #777779;
+	padding: 3em 1em 1em 1em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3 {
+	color:#777779;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+h4{
+	font-size: 1.75em;
+	color: #777779;
+	padding: 2em 0;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+a{
+	color: inherit;
+	border-bottom: 1px, solid, ##7999AD;
+	text-decoration: none;
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+}
+
+nav a{
+	color:#fff;
+	margin: 2em;
+	text-align: center;
+}
+
+#wrapper{
+	width: auto;
+}
+
+.navlinks{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: .75em;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	color: #fff;
+}
+
+#hero {
+	width: 100%;
+}
+
+.logo{
+	width: 15%;
+}
+
+#lander{
+	background-image:url(../images/sheets-header.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 500px;
+}
+
+.main-CTA{
+	font-size: .80em;
+	color: #fff;
+	background-color: #7999AD;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	border-style: double;
+}
+
+.LM-CTA{
+	font-size: .80em;
+	color: #fff;
+	background-color: #777779;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	border-style: double;
+}
+
+#product{
+	width: 50%;
+	text-align: center;
+	padding: 2em 1em 1em 1em;
+}
+
+#value {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	width: 10%;
+	padding: 2em 1em 1em 1em;
+}
+
+#brand-message{
+	background-image:url(../images/Video-Still.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 250px;
+}
+
+#details{
+	width: 30em;
+	padding: 2em 2em;
+}
+
+.details-header{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.details-copy{
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+#image1{
+	
+}
+
+#image2{
+	
+}
+
+#image3{
+	
+}
+
+#image4{
+	
+}
+
+#image5{
+	
+}
+
+.quote{
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	color: #777779;
+	background-color: rgba(226,227,228,.60);
+	padding: 1em;
+}
+
+.customer{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #777779;
+	background-color: rgba(226,227,228,.60);
+	padding: 1.5em;
+}
+
+#best{
+	width: 30%;
+	text-align: center;
+	padding: 2em 1em 1em 1em;
+}
+
+.cta2{
+	color: #7999AD;
+}
+
+#statement{
+	background-image:url(../images/Brand-Statement-Hero.jpg);
+	background-size: cover;
+	background-position: left;
+	color: #777779;
+	font-weight: normal;
+	padding:1em;
+	height: 400px;
+}
+
+#statementtext{
+	text-align: center;
+	padding: 2em 1em 1em 1em;
+}
+
+#statementCTA{
+	color: #214766;
+	text-align: center;
+}
+
+footer {
+	background-color: #FF957E;
+	font-size: .75em;
+	text-align: center;
+	padding: 3em;
+}
+
+.footer{
+	color: #777779;
+}
