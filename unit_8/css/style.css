@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 0 auto;
+}
+
+header {
+	font-family: 'Playfair Display', serif;
+	color:#B2B4B7;
+	width: 100%;
+	padding: 1em;
+}
+
+body {
+	color:#B2B4B7;
+	font-family: 'Raleway', sans-serif;
+	background-color: #FFF;
+	font-size: 16px;
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+h2, h4, h5, p {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5em;
+	color: #777779;
+	line-height: 1.5em;
+	padding: 1em;
+	clear: left;
+}
+
+h2{
+	font-size: 2em;
+	padding: 1em 0;
+}
+
+h3 {
+	color:#777779;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+h4{
+	font-size: 1.75em;
+	color: #777779;
+	padding: 2em 0;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+a{
+	color: inherit;
+	border-bottom: 1px, solid, #7999AD;
+	text-decoration: none;
+}
+
+nav a{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: .75em;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 2em 3em;
+}
+
+#hero {
+	width: 100%;
+}
+
+.logo{
+	width: 17%;
+}
+
+#lander{
+	background-image:url(../images/sheets-header.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 31em;
+}
+
+.main-CTA{
+	font-size: .80em;
+	color: #fff;
+	background-color: #7999AD;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	padding: .625em 1.25em;
+	margin: .625em 1.25em;
+	border: double;
+	clear: both;
+}
+
+.LM-CTA{
+	font-size: .80em;
+	color: #fff;
+	background-color: #777779;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	padding: .625em 1.25em;
+	margin: .625em 1.25em;
+	border: double;
+}
+
+#product{
+	text-align: center;
+	padding: 2em;
+	display: inline-block;
+	line-height: 1.5em;
+}
+
+#product-image{
+	float: left;
+	width: 50%;
+}
+
+#value {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	padding: 3em;
+}
+
+.value-content{
+	width: 10em;
+	padding: 2em, 4em;
+	margin: 2em 4em;
+	font-size: .80em;
+	float: left;
+}
+
+.value-img{
+	width: 8em;
+}
+
+#brand-message{
+	background-image:url(../images/Video-Still.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 19em;
+	clear: both;
+	display: inline-block;
+	padding: 2em;
+}
+
+#details{
+	padding: 2em 2em;
+}
+
+.details-header{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	padding: 1.5em 0;
+}
+
+.details-copy{
+	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+#image1{
+	width: 50%;
+	float: left;
+}
+
+#image1-copy{
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+#image2{
+	width: 50%;
+	clear: left;
+	float: right;
+}
+
+#image2-copy{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#image3{
+	display: inline-block;
+	width: 90%;
+	padding-bottom: 1em;
+}
+
+#image4{
+	width: 50%;
+	float: left;
+	padding-top: 1em;
+}
+
+#image4-copy{
+	width: 50%;
+	display: inline-block;
+	float: right;
+	padding-bottom: 1em;
+}
+
+#image5{
+	clear: left;
+	width: 50%;
+	float: right;
+}
+
+#image5-copy{
+	clear: left;
+	width: 50%;
+	float: left;
+}
+
+.quote{
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	color: #777779;
+	background-color: rgba(226,227,228,.60);
+	padding-top: 3em;
+	padding-bottom: 1em;
+}
+
+.customer{
+	font-family: 'Raleway', sans-serif;
+	font-size: .85em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #777779;
+	background-color: rgba(226,227,228,.60);
+	padding-bottom: 3em;
+}
+
+#best{
+	text-align: center;
+	padding: 2em 0;
+	line-height: 2em;
+	display: inline-block;
+}
+
+.best-content{
+	width: 20em;
+	padding-bottom: 2em;
+	float: left;
+}
+
+.cta2{
+	color: #7999AD;
+}
+
+#statement{
+	background-image:url(../images/Brand-Statement-Hero.jpg);
+	background-size: cover;
+	background-position: left;
+	color: #777779;
+	font-weight: normal;
+	padding: 3em;
+	height: 30em;
+	clear: both;
+}
+
+#statementtext{
+	text-align: center;
+	line-height: 1.5em;
+	width: 20em;
+	display: inline-block;
+}
+
+#statementCTA{
+	color: #214766;
+	text-align: center;
+	line-height: 4em;
+}
+
+footer {
+	background-color: rgba(226,227,228,.60);
+	font-size: .75em;
+	text-align: left;
+	padding: 3em;
+}
+
+footer a{
+	color: #777779;
+	font-family: 'Raleway', sans-serif;
+	font-size: .75em;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding-bottom: 1em;
+}
+
+footer img{
+	float: right;
+}
+
+.footer{
+	color: #777779;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
+
+@media only screen and (max-width: 1020px){
+.value-content{
+	float: none;
+	display: block;
+	}
+}
+
+@media only screen and (max-width: 960px){
+.best-content{
+	float: none;
+	display: block;
+	}
+}
+
+@media only screen and (max-width: 750px){
+	body{
+		font-size: 15px;
+	}
+
+	h2{
+		font-size: 1.5em;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer img{
+		float: none;
+		display: inline-block;
+	}
+
+	nav a{
+		padding: 1.5em 1.5em;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.logo{
+		width: 30%;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+
+	h4{
+		font-size: 1.5em;
+	}
+
+	#product-image{
+		float: none;
+		width: 50%;
+		display: inline-block;
+	}
+
+	#image1{
+	width: 90%;
+	float: none;
+	display: inline-block;
+	}
+
+	#image1-copy{
+		width: 90%;
+		float: none;
+		display: inline-block;
+		}
+
+	#image2{
+		width: 90%;
+		float: none;
+		display: inline-block;
+		}
+
+	#image2-copy{
+		width: 90%;
+		float: none;
+		display: inline-block;
+		}
+
+	#image4{
+		width: 90%;
+		float: none;
+		display: inline-block;
+		}
+
+	#image4-copy{
+		width: 90%;
+		float: none;
+		display: inline-block;
+		}
+
+	#image5{
+		width: 90%;
+		float: none;
+		display: inline-block;
+		}
+
+	#image5-copy{
+		width: 90%;
+		float: none;
+		display: inline-block;
+		}
+
+	#statementtext{
+		width: 13em;
+	}
+}
+
