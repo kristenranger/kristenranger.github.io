@@ -341,7 +341,7 @@ footer img{
 @media only screen and (max-width: 1020px){
 .value-content{
 	float: none;
-	display: inline-block;
+	display: block;
 	}
 }
 
@@ -372,20 +372,6 @@ footer img{
 
 	nav a{
 		padding: 1.5em 1.5em;
-	}
-}
-
-@media only screen and (max-width: 450px){
-	.logo{
-		width: 30%;
-	}
-
-	h1{
-		font-size: 2em;
-	}
-
-	h4{
-		font-size: 1.5em;
 	}
 
 	#product-image{
@@ -444,6 +430,20 @@ footer img{
 
 	#statementtext{
 		width: 13em;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	.logo{
+		width: 30%;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+
+	h4{
+		font-size: 1.5em;
 	}
 }
 
